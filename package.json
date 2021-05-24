@@ -1,0 +1,22 @@
+{
+  "name": "tokyodevstats",
+  "version": "1.0.0",
+  "description": "Displays stats on the in-demand skills for developers in Tokyo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toadslop/tokyodevstats.git"
+  },
+  "author": "Toadslop",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/toadslop/tokyodevstats/issues"
+  },
+  "homepage": "https://github.com/toadslop/tokyodevstats#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
