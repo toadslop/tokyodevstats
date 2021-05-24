@@ -1,5 +1,6 @@
 {
   "name": "tokyodevstats",
+  "type": "module",
   "version": "1.0.0",
   "description": "Displays stats on the in-demand skills for developers in Tokyo.",
   "main": "app.js",
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/toadslop/tokyodevstats#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "node-html-parser": "^3.3.3"
   },
   "devDependencies": {
     "dotenv": "^10.0.0",
